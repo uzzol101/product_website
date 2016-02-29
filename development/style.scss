@@ -7,19 +7,19 @@ $p-font-sizes: ( null: (14px, null), small: 16px, medium: (17px, null), 900px: 1
 $h1-font-extrabold: ( null: (23px, 32px), small: (36px, 53px), medium: (38px, 50px), large: (80px, 97px));
 // helper classes
 
-@font-face {
-    font-family: 'Proxima Nova';
-    src: url('../fonts/Proxima Nova Bold.otf');
-}
+// @font-face {
+//     font-family: 'Proxima Nova';
+//     src: url('../fonts/Proxima Nova Bold.otf');
+// }
 
-@font-face {
-    font-family: 'Proxima Nova Regular';
-    src: url('../fonts/Proxima Nova Regular.otf');
-}
-@font-face {
-    font-family: 'Proxima Nova Extrabold';
-    src: url('../fonts/Proxima Nova Extrabold.otf');
-}
+// @font-face {
+//     font-family: 'Proxima Nova Regular';
+//     src: url('../fonts/Proxima Nova Regular.otf');
+// }
+// @font-face {
+//     font-family: 'Proxima Nova Extrabold';
+//     src: url('../fonts/Proxima Nova Extrabold.otf');
+// }
 
 
 .clearfix {
@@ -39,7 +39,42 @@ $h1-font-extrabold: ( null: (23px, 32px), small: (36px, 53px), medium: (38px, 50
     float: none !important;
 }
 body{
-    font-family: 'Proxima Nova';
+    
+}
+.container{
+    width: 1170px !important;
+}
+// HEADER 
+.header{
+    height: 600px;
+    background: url('../img/header-slider.jpg') no-repeat;
+    background-size: cover;
+    h1{
+        margin-top: 50px;
+    }
+    li{
+        float: left;
+        margin-top: 45px;
+        margin-left: 50px;
+
+       
+        a{
+            display: block;
+             padding: 23px 20px;
+             color: #6e6658;
+             text-decoration: none;
+             &:hover{
+                color: #fff;
+                @include radial-gradient(circle at 50% 50%, #56595c 10%, #3a3d3e);
+             }
+
+        }
+        
+        &:first-child{
+            margin-left: 15px;
+        }
+
+    }
 }
 
 
