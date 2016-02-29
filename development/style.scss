@@ -1,0 +1,67 @@
+@import "./sass_mixins";
+@import "bourbon";
+// font sizes
+$breakpoints: ( small: 480px, medium: 700px, large: 1024px);
+$h1-font-sizes: ( null: (23px, 32px), small: (36px, 53px), medium: (38px, 50px), large: (65px, 97px));
+$p-font-sizes: ( null: (14px, null), small: 16px, medium: (17px, null), 900px: 18px, large: (17px, null), 1440px: 17px, );
+$h1-font-extrabold: ( null: (23px, 32px), small: (36px, 53px), medium: (38px, 50px), large: (80px, 97px));
+// helper classes
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/Proxima Nova Bold.otf');
+}
+
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('../fonts/Proxima Nova Regular.otf');
+}
+@font-face {
+    font-family: 'Proxima Nova Extrabold';
+    src: url('../fonts/Proxima Nova Extrabold.otf');
+}
+
+
+.clearfix {
+    @include clearfix;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none !important;
+}
+body{
+    font-family: 'Proxima Nova';
+}
+
+
+
+@media (max-width: 479px) {
+    
+    
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (min-width:480px) and (max-width:767px) {
+    
+}
+
+
+@media (min-width:768px)and(max-width: 991px) {
+   
+}
+
+@media (min-width: 992px) {
+    
+}
