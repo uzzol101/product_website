@@ -16,10 +16,10 @@ $h1-font-extrabold: ( null: (23px, 32px), small: (36px, 53px), medium: (38px, 50
 //     font-family: 'Proxima Nova Regular';
 //     src: url('../fonts/Proxima Nova Regular.otf');
 // }
-// @font-face {
-//     font-family: 'Proxima Nova Extrabold';
-//     src: url('../fonts/Proxima Nova Extrabold.otf');
-// }
+@font-face {
+    font-family: 'Tenor Sans';
+    src: url('../fonts/TenorSans-Regular.ttf');
+}
 
 
 .clearfix {
@@ -39,6 +39,7 @@ $h1-font-extrabold: ( null: (23px, 32px), small: (36px, 53px), medium: (38px, 50
     float: none !important;
 }
 body{
+    font-family: 'Tenor Sans';
     
 }
 .container{
@@ -49,18 +50,18 @@ body{
     height: 779px;
     background: url('../img/header-slider.jpg') no-repeat;
     background-size: cover;
-    h1{
+    .logo{
         margin-top: 50px;
     }
-    li{
+    .list-unstyled li{
         float: left;
         margin-top: 45px;
-        margin-left: 50px;
+        margin-left: 40px;
 
        
         a{
             display: block;
-             padding: 23px 20px;
+             padding: 21px 20px;
              color: #6e6658;
              text-decoration: none;
              &:hover{
@@ -75,6 +76,119 @@ body{
         }
 
     }
+    .main-slider{
+
+       .carousel-control.left,.carousel-control.right{
+        background: none;
+       }
+
+
+        h1{
+            font-size: 80px;
+            text-align: left;
+            text-shadow: 2px 0px 12px #fff;
+             
+             color: #4475a5;
+            span{
+                font-size: 56px;
+                color: #908674;
+            }
+        }
+        h3{
+            font-size: 26px;
+            text-align: left;
+             color: #908674;
+        }
+        p{
+            text-align: left;
+            font-size: 20px;
+            white-space: pre-line;
+             color: #908674;
+             margin-top: 20px;
+        }
+        .carousel-caption{
+            bottom: 83px;
+           left: 22%;
+        }
+        .phone-name{
+            vertical-align: bottom;
+        }
+        .carousel-indicators{
+            bottom: -110px;
+           li{
+            background: #d6c7ad;
+            box-shadow: 0px -2px 0px 1px #9e9381;
+            border: none;
+           }
+           .active{
+            background: #7da4b9;
+            box-shadow: 0px -1px 0px 1px #516e82;
+           }
+        }
+    }
+}
+
+// HOW AND WAHT
+.howAndWhat{
+    background: url('../img/howandwhats.jpg') no-repeat;
+    height: 1750px;
+    background-size: cover;
+    h1{
+        margin: 70px 0 30px;
+        color: #1977bd;
+        font-size: 80px;
+        font-weight: bold;
+        
+        span{
+            color: #888888;
+            font-size: 56px;
+            font-weight: normal;
+            
+            sub{
+                bottom: 0;
+            }
+        }
+    }
+    p{
+        font-size: 15px;
+        line-height: 25px;
+        color: #888888;
+        margin-bottom: 25px;
+        white-space: pre-line;
+        hyphens: manual;
+    }
+    button{
+    @include linear-gradient(to bottom, #7ac2cd,#5394b0);
+    color: #fff;
+    height: 30px;
+    font-size: 13px;
+    position: relative;
+    width: 145px;
+
+    padding-left: 34px;
+    border: 1px solid #888888;
+    border-radius: 3px;
+    text-shadow: 0px -1px 2px #888888;
+    letter-spacing: -1px;
+        
+        span{
+               position: absolute;
+    @include radial-gradient(#6b675c 30%,#504c44);
+    color: #fff;
+    font-size: 18px;
+    
+    
+    line-height: 30px;
+    display: inline-block;
+    width: 30px;
+    height: 29px;
+    left: 0;
+    top: 0;
+   
+            
+        }
+    }
+
 }
 
 

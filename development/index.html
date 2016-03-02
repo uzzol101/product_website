@@ -4,24 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <title>this is title</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
-    
 </head>
 
 <body>
     <section class="header">
-        
-            <div class="container">
-               <div class="row row-centered">
+        <div class="container">
+            <div class="row row-centered">
                 <!-- logo text -->
-                <h1 >WEBSITE</h1>
+                <h1 class='logo'>WEBSITE</h1>
                 <!-- end logo text -->
-
                 <!-- navbar -->
                 <ul class='list-unstyled'>
                     <li><a href="#">HOME</a></li>
@@ -36,9 +33,75 @@
                 <!-- end navbar -->
             </div>
             <!-- end row -->
+        </div>
+        <!-- end container -->
+        <!-- start main slider -->
+        <section class="main-slider">
+            <div id="carousel-id" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+                    <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                    <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <div class="container">
+                            <img src="img/galaxy.png">
+                            <div class="carousel-caption col-sm-6 col-sm-offset-2">
+                                <h3>Next generation mobile ...</h3>
+                                <h1><span>with</span>  MOBILE</h1>
+                                <p>Mobile offers full-featured and dedicated applications for all your daily needs. Its that simple. It will take over all of these:</p>
+                            </div>
+                            <img class='phone-name' src="img/phone-name.png" alt="phone Name">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <img src="img/galaxy.png">
+                            <div class="carousel-caption col-sm-6 col-sm-offset-2">
+                                <h3>Next generation mobile</h3>
+                                <h1><span>with</span>  MOBILE</h1>
+                                <p>Mobile offers full-featured and dedicated applications for all your daily needs. Its that simple. It will take over all of these:</p>
+                            </div>
+                            <img class='phone-name' src="img/phone-name.png" alt="phone Name">
+                        </div>
+                    </div>
+                    <div class="item active">
+                        <div class="container">
+                            <img src="img/galaxy.png">
+                            <div class="carousel-caption col-sm-6 col-sm-offset-2">
+                                <h3>Next generation mobile</h3>
+                                <h1><span>with</span>  MOBILE</h1>
+                                <p>Mobile offers full-featured and dedicated applications for all your daily needs. Its that simple. It will take over all of these:</p>
+                            </div>
+                            <img class='phone-name' src="img/phone-name.png" alt="phone Name">
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
-            <!-- end container -->
-        
+        </section>
+        <!-- end main slider -->
+    </section>
+    <!-- end header -->
+    <section class="howAndWhat">
+        <div class="row">
+            <div class="container">
+                <h1><span>WHAT'<sub>S</sub> </span>In it for you?</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                 Lorem Ipsum has been the industry's standard dummy.</p>
+                <p>Text ever since the 1500s, when an unknown printer took a galley of type and
+                 scrambled it to make a type specimen book. It has survived not only five centu &shy;
+                ries, but also the leap into electronic typesetting, remaining.</p>
+                <p> essentially unchanged. It was popularised in the 1960s with the release of Letra &shy;
+                set sheets containing Lorem Ipsum passages, and more recently with desktop 
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+               
+                    <button> <span><i class="fa fa-long-arrow-right"></i></span> READ MORE</button>
+              
+            </div>
+        </div>
     </section>
     <!-- Local bootstrap CSS & JS -->
     <script src="js/jquery.js"></script>
