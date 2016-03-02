@@ -26,12 +26,13 @@ var weekDay = ['satarday','sunday','monday','tuesday','wednesday','thirsday','fr
     day = date.getDay();
     time = date.getHours();
     min = date.getMinutes();
+    
  
     console.log('today is : ' + weekDay[day]);
     if(time > 12){
       console.log('current time is ' + clockTime[time] +':'+ min +' PM'  );
     }else{
-      console.log('current time is ' + clockTime[time] +':'+ min +' AM'  );
+      console.log('current time is ' + time +':'+ min +' AM'  );
     }
 
  

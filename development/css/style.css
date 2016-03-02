@@ -78,6 +78,32 @@ body {
       background: #7da4b9;
       box-shadow: 0px -1px 0px 1px #516e82; }
 
+button {
+  background-color: #7ac2cd;
+  background-image: linear-gradient(to bottom,#7ac2cd, #5394b0);
+  color: #fff;
+  height: 30px;
+  font-size: 13px;
+  position: relative;
+  width: 145px;
+  padding-left: 34px;
+  border: 1px solid #888888;
+  border-radius: 3px;
+  text-shadow: 0px -1px 2px #888888;
+  letter-spacing: -1px; }
+  button span {
+    position: absolute;
+    background-color: #6b675c;
+    background-image: radial-gradient(  #6b675c 30%, #504c44);
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    display: inline-block;
+    width: 30px;
+    height: 29px;
+    left: 0;
+    top: 0; }
+
 .howAndWhat {
   background: url("../img/howandwhats.jpg") no-repeat;
   height: 1750px;
@@ -102,31 +128,6 @@ body {
     -webkit-hyphens: manual;
     -ms-hyphens: manual;
     hyphens: manual; }
-  .howAndWhat button {
-    background-color: #7ac2cd;
-    background-image: linear-gradient(to bottom,#7ac2cd, #5394b0);
-    color: #fff;
-    height: 30px;
-    font-size: 13px;
-    position: relative;
-    width: 145px;
-    padding-left: 34px;
-    border: 1px solid #888888;
-    border-radius: 3px;
-    text-shadow: 0px -1px 2px #888888;
-    letter-spacing: -1px; }
-    .howAndWhat button span {
-      position: absolute;
-      background-color: #6b675c;
-      background-image: radial-gradient(  #6b675c 30%, #504c44);
-      color: #fff;
-      font-size: 18px;
-      line-height: 30px;
-      display: inline-block;
-      width: 30px;
-      height: 29px;
-      left: 0;
-      top: 0; }
   .howAndWhat .howTo {
     margin-top: 30px; }
     .howAndWhat .howTo .icon {
@@ -160,3 +161,44 @@ body {
       margin-top: 60px; }
       .howAndWhat .howTo .map-text:last-child {
         margin-top: 20px; }
+
+.new {
+  background: url("../img/above-footer.jpg") no-repeat;
+  height: 856px;
+  background-size: cover;
+  text-align: center; }
+  .new h1 {
+    margin: 60px 0 80px;
+    color: #908674;
+    font-size: 80px; }
+    .new h1 span {
+      color: #4475a5; }
+  .new .panel {
+    margin-bottom: 0;
+    background: none;
+    box-shadow: none;
+    border: none; }
+  .new .carousel-control.left, .new .carousel-control.right {
+    background: #e5d6bb;
+    top: 25%;
+    width: 5%;
+    height: 100px; }
+  .new .carousel-control .glyphicon-chevron-left, .new .carousel-control .glyphicon-chevron-right {
+    top: 45%; }
+  .new .carousel-control {
+    border-radius: 5px; }
+  .new .carousel-indicators {
+    display: none; }
+  .new h5 {
+    text-align: left;
+    font-size: 20px;
+    color: #4475a5; }
+  .new p {
+    white-space: pre-line;
+    text-align: left;
+    line-height: 25px; }
+  .new .button {
+    text-align: left; }
+  .new h5, .new p, .new .button {
+    margin-left: 60px;
+    margin-top: 30px; }
