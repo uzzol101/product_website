@@ -55,13 +55,13 @@ body{
     }
     .list-unstyled li{
         float: left;
-        margin-top: 45px;
+        margin-top: 43px;
         margin-left: 40px;
 
        
         a{
             display: block;
-             padding: 21px 20px;
+             padding: 22px 20px;
              color: #6e6658;
              text-decoration: none;
              &:hover{
@@ -72,7 +72,7 @@ body{
         }
         
         &:first-child{
-            margin-left: 15px;
+            margin-left: 24px;
         }
 
     }
