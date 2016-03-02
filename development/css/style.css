@@ -202,3 +202,50 @@ button {
   .new h5, .new p, .new .button {
     margin-left: 60px;
     margin-top: 30px; }
+
+.anyWhere {
+  background: url("../img/download-section.jpg") no-repeat;
+  background-size: cover;
+  height: 256px; }
+  .anyWhere h4 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 33px;
+    color: #615a4f; }
+  .anyWhere .unstyled {
+    list-style-type: none;
+    background-color: #61afce;
+    background-image: linear-gradient(to bottom,#61afce, #4a889e);
+    height: 80px;
+    border: 1px solid #fffcdb;
+    border-radius: 30px;
+    padding: 0;
+    display: block;
+    margin-top: 60px; }
+    .anyWhere .unstyled li {
+      float: left;
+      border-right: 1px solid #2e5666;
+      box-shadow: 1px 0 0 0 #7cb9c4;
+      margin-top: 10px;
+      height: 60px;
+      margin-left: 40px;
+      padding-right: 40px; }
+      .anyWhere .unstyled li:last-child {
+        border: none;
+        box-shadow: none; }
+      .anyWhere .unstyled li span {
+        margin-right: 15px;
+        display: block;
+        float: left;
+        margin-top: 10px; }
+      .anyWhere .unstyled li a {
+        color: #fffcdb;
+        text-decoration: none;
+        display: block;
+        float: left;
+        margin-top: 6px;
+        font-size: 22px; }
+        .anyWhere .unstyled li a h6 {
+          color: #e9d9bc;
+          font-size: 13px;
+          margin: 0; }
