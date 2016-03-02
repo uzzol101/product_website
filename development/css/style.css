@@ -127,3 +127,36 @@ body {
       height: 29px;
       left: 0;
       top: 0; }
+  .howAndWhat .howTo {
+    margin-top: 30px; }
+    .howAndWhat .howTo .icon {
+      position: relative;
+      left: -25px;
+      bottom: -4px;
+      display: inline-block;
+      width: 63px;
+      height: 65px;
+      background: url("../img/howTo-icon.png") no-repeat; }
+    .howAndWhat .howTo h1 {
+      color: #1977bd;
+      display: inline-block;
+      font-size: 80px;
+      margin-left: -25px;
+      font-weight: normal;
+      text-shadow: 1px -1px 10px #fff8d9; }
+    .howAndWhat .howTo p {
+      margin-left: 50px;
+      white-space: pre-line;
+      font-size: 15px; }
+    .howAndWhat .howTo span {
+      font-size: 80px; }
+    .howAndWhat .howTo .map-image {
+      text-align: center; }
+      .howAndWhat .howTo .map-image img {
+        margin: 100px 0 60px; }
+    .howAndWhat .howTo .map-text {
+      text-align: center;
+      margin-left: 0;
+      margin-top: 60px; }
+      .howAndWhat .howTo .map-text:last-child {
+        margin-top: 20px; }
