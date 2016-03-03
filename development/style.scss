@@ -362,6 +362,67 @@ button{
    }
 }
 
+//QUICKLINKS
+.quickLinks{
+    background: url('../img/footer.jpg') no-repeat;
+    height: 372px;
+    background-size: cover;
+    li{
+        margin-bottom: 10px;
+        a{
+            color: #fffcdb;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+    }
+    .map{
+        background: url('../img/map.png') no-repeat 5% 50%;
+        height: 300px;
+    }
+    h2{
+        border-bottom: 1px solid #3e758e;
+        box-shadow: 0 1px 0 0 #5fb1d4;
+        color: #fff;
+        padding-bottom: 10px;
+    }
+    p{
+        white-space: pre-line;
+        color: #fff;
+        margin-left: 230px;
+        a{
+            color: #fff;
+        }
+    }
+    .form-group{
+        label,input,textarea{
+            display: block;
+            float: left;
+            margin-bottom: 20px;
+        }
+        label{
+           
+           margin-right: 35px;
+           margin-top: 5px;
+           color: #fff;
+        }
+        .msg{
+            margin-right: 15px;
+        }
+        input{
+            max-width: 180px;
+        }
+        textarea{
+            max-width: 180px;
+        }
+        button{
+            margin-left: 77px;
+            max-width: 100px;
+            color: #44829e;
+            text-shadow: none;
+            letter-spacing: 0;
+        }
+    }
+}
 
 
 
@@ -386,3 +447,5 @@ button{
 @media (min-width: 992px) {
     
 }
+
+

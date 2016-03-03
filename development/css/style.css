@@ -249,3 +249,48 @@ button {
           color: #e9d9bc;
           font-size: 13px;
           margin: 0; }
+
+.quickLinks {
+  background: url("../img/footer.jpg") no-repeat;
+  height: 372px;
+  background-size: cover; }
+  .quickLinks li {
+    margin-bottom: 10px; }
+    .quickLinks li a {
+      color: #fffcdb;
+      text-transform: uppercase;
+      font-size: 12px; }
+  .quickLinks .map {
+    background: url("../img/map.png") no-repeat 5% 50%;
+    height: 300px; }
+  .quickLinks h2 {
+    border-bottom: 1px solid #3e758e;
+    box-shadow: 0 1px 0 0 #5fb1d4;
+    color: #fff;
+    padding-bottom: 10px; }
+  .quickLinks p {
+    white-space: pre-line;
+    color: #fff;
+    margin-left: 230px; }
+    .quickLinks p a {
+      color: #fff; }
+  .quickLinks .form-group label, .quickLinks .form-group input, .quickLinks .form-group textarea {
+    display: block;
+    float: left;
+    margin-bottom: 20px; }
+  .quickLinks .form-group label {
+    margin-right: 35px;
+    margin-top: 5px;
+    color: #fff; }
+  .quickLinks .form-group .msg {
+    margin-right: 15px; }
+  .quickLinks .form-group input {
+    max-width: 180px; }
+  .quickLinks .form-group textarea {
+    max-width: 180px; }
+  .quickLinks .form-group button {
+    margin-left: 77px;
+    max-width: 100px;
+    color: #44829e;
+    text-shadow: none;
+    letter-spacing: 0; }
